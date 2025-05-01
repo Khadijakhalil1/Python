@@ -8,3 +8,6 @@ person = {
     "is_student": False
 }
 print(person)
+print(person["name"])         # Output: Alice
+print(person.get("age"))      # Output: 30
+print(person.get("city", "N/A"))  # Output: N/A (default if key not found)
