@@ -1,0 +1,5 @@
+collection = set()
+collection.add("khadi")
+collection.add("khadija")
+collection.add("khadija khalil")
+print(collection)
